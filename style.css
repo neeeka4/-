@@ -1,0 +1,584 @@
+body {
+  background-color: #03a9f4;
+}
+/* Main Page Style START  */
+.twitter__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+.twitter__main_logo {
+  width: 10%;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  position: absolute;
+}
+.twitter__main_title1 {
+  color: aliceblue;
+  text-align: center;
+  position: absolute;
+  font-family: "Inter";
+  margin-top: 155px;
+}
+.twitter__main2 {
+  margin: 100px 100px 100px 100px;
+  position: relative;
+  width: 473px;
+  height: 200px;
+}
+.twitter__main_title2 {
+  color: aliceblue;
+  text-align: center;
+  position: absolute;
+  font-family: "Inter";
+  margin-top: 400px;
+  margin-right: 95px;
+  width: 230px;
+}
+.twitter__main_signup {
+  position: absolute;
+  width: 281px;
+  height: 50px;
+  margin: 330px 100px 100px 100px;
+  font-family: "Inter";
+  background-color: transparent;
+  border-color: white;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.twitter__main_signin {
+  width: 281px;
+  height: 50px;
+  margin: 405px 100px 100px 100px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  border: -5px;
+  border-color: rgb(8, 40, 146);
+  position: absolute;
+  cursor: pointer;
+}
+.twitter__main_title3 {
+  margin-top: 500px;
+  width: 465px;
+  height: 50px;
+  font-family: "Inter";
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+/* Main Page Style END  */
+/* Welcome Page Style Start  */
+#earth {
+  position: absolute;
+  margin: 100px 850px 400px 500px;
+  width: 150px;
+  height: 150px;
+}
+#rocket {
+  position: absolute;
+  margin: 150px 1350px 50px 146px;
+  width: 150px;
+  height: 150px;
+}
+#link {
+  position: absolute;
+  z-index: -1;
+  margin: 530px 750px 50px 450px;
+  width: 150px;
+  height: 150px;
+}
+.container {
+  display: none;
+  position: relative;
+  width: 1170px;
+  height: 600px;
+  display: flex;
+  margin-bottom: 80px;
+  margin-left: 150px;
+}
+.blocks {
+  border-style: solid;
+  border-radius: 5%;
+  border-color: aliceblue;
+  width: 800px;
+  height: 555px;
+  margin-top: 150px;
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+}
+.block__right {
+  height: 500px;
+  width: 630px;
+  margin-left: 60px;
+}
+.block__right_item {
+  position: absolute;
+  margin-top: 131px;
+  width: 330px;
+  z-index: -1;
+}
+.block__right_items1 {
+  width: 80px;
+  height: 170px;
+  margin-top: 200px;
+  margin-left: 50px;
+  position: absolute;
+}
+.block__right_items2 {
+  width: 80px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 115px;
+}
+.block__right_items3 {
+  width: 80px;
+  margin-top: 146px;
+  position: absolute;
+  margin-left: 200px;
+}
+.block__right_items4 {
+  width: 200px;
+  margin-top: 367px;
+  margin-left: 70px;
+  position: absolute;
+}
+.block_left {
+  background-color: white;
+  width: 650px;
+  height: 560px;
+  margin-right: -10px;
+  margin-left: 0;
+  position: relative;
+  border-bottom-right-radius: 7%;
+  border-top-right-radius: 7%;
+  display: flex;
+}
+.block_left__title {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 127px;
+  font-family: "Inter";
+  font-size: 23px;
+  font-weight: 600;
+  color: #282f43;
+}
+.block__left_ul {
+  list-style: none;
+}
+.block__left_li1 {
+  margin-top: 150px;
+  margin-left: 29px;
+  position: relative;
+}
+.block__left_li2 {
+  margin-left: 29px;
+  margin-top: 7px;
+  position: relative;
+  height: 25px;
+  width: 250px;
+  height: 50px;
+}
+.inp__email_img {
+  width: 21px;
+  height: 36px;
+  position: absolute;
+  margin-left: 2px;
+}
+.inp__email {
+  width: 178px;
+  height: 20px;
+  padding-left: 5px;
+  background-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  margin-left: 30px;
+}
+
+.inp__password {
+  width: 178px;
+  height: 20px;
+  background-color: transparent;
+  z-index: 1;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  margin-left: 30px;
+}
+.inp__password_img {
+  width: 37px;
+  height: 36px;
+  position: absolute;
+  margin-left: -7px;
+  margin-top: -4px;
+}
+input[type="text"]::placeholder {
+  text-align: start;
+}
+.forgot__pass_img {
+  margin-left: -19px;
+  position: absolute;
+  width: 19px;
+  height: 22px;
+}
+.forgot__pass_title {
+  position: absolute;
+  color: #216ed7;
+  font-size: 10px;
+  margin-left: 130px;
+  font-family: "Inter";
+  font-weight: 400;
+}
+.btn__signup {
+  width: 200px;
+  height: 33px;
+  border-color: aliceblue;
+  border: 3px;
+  background-color: #282f43;
+  color: aliceblue;
+  margin: 9px 3px 1px 50px;
+  cursor: pointer;
+}
+.signup__or {
+  width: 200px;
+  height: 15px;
+  margin: 20px 0px 6px 50px;
+}
+.continue__goole_btn {
+  width: 200px;
+  height: 33px;
+  border-color: #282f43;
+  border: 3px;
+  color: #282f43;
+  margin: 40px 3px 1px 50px;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+}
+.continue__fb_btn {
+  width: 200px;
+  height: 33px;
+  border-color: #282f43;
+  border: 3px;
+  color: #282f43;
+  margin: 9px 3px 1px 50px;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+}
+.continue__google_img {
+  margin: -4px 8px 20px -28px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.continue__fb_img {
+  margin: -4px 8px 20px -23px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+/* Main Page Style END  */
+/* homepage style start */
+.homepage {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.homepage__left {
+  margin-left: 50px;
+}
+.homepage__ul {
+  list-style: none;
+  padding-left: 25px;
+}
+.homepage__li {
+  width: 200px;
+  padding: 2px 2px 2px 2px;
+  position: relative;
+}
+.homepage__left_btn {
+  width: 250px;
+  height: 60px;
+  margin: 3px 0px 0px -10px;
+  position: relative;
+  background-color: white;
+  font-family: "Inter";
+  font-weight: 450;
+  font-size: 18px;
+  border-radius: 7%;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(128, 128, 128, 0.332);
+}
+.homepage__left_btnimg {
+  margin: 11px 2px 2px 0px;
+  padding: 1px 1px 1px 1px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  z-index: 1;
+}
+/* !  */
+.cont_home {
+  justify-content: center;
+  flex-direction: column;
+  height: 230px;
+}
+.home_page {
+  padding-top: 11px;
+  border: solid 1px rgba(193, 175, 175, 0.7);
+  padding-left: 10px;
+  width: 550px;
+  height: 230px;
+}
+.avat {
+  margin-left: 15px;
+  width: 60px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.twt_inp {
+  display: flex;
+  justify-content: flex-end;
+}
+.inp_post {
+  width: 470px;
+  height: 30px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+}
+
+.btm {
+  margin-left: 45px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#img1 {
+  width: 18px;
+  height: 20px;
+  margin-left: 30px;
+}
+#img2 {
+  width: 18px;
+  height: 20px;
+}
+#img3 {
+  width: 18px;
+  height: 20px;
+}
+#img4 {
+  width: 18px;
+  height: 20px;
+}
+#img5 {
+  width: 18px;
+  height: 20px;
+}
+#img6 {
+  width: 18px;
+  height: 20px;
+  margin-right: 100px;
+}
+
+.btn_twt {
+  background-color: #03a9f4;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  width: 65px;
+  height: 30px;
+  padding: auto;
+  margin-right: 50px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  height: 2px;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.home {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+/* home end */
+/* content */
+#products-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont-page {
+  position: relative;
+  padding-top: 20px;
+  border: solid 1px rgba(193, 175, 175, 0.7);
+  padding-left: 10px;
+  width: 550px;
+  /* height: 230px; */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: right; */
+}
+
+.uname {
+  margin-left: 88px;
+  font-weight: bold;
+}
+.nname {
+  margin-left: 5px;
+  color: grey;
+  font-weight: lighter;
+}
+/* .post {
+  
+    display: flex;
+    justify-content: flex-end;
+  } */
+
+.cont-p {
+  margin-top: -7px;
+  margin-right: 15px;
+  margin-left: 87px;
+  width: 433px;
+  height: 110px;
+  font-size: 15px;
+}
+
+.avat_cont {
+  position: absolute;
+  margin-left: 15px;
+  width: 60px;
+  border-radius: 50px;
+  margin-top: 5px;
+}
+.menu {
+  margin-left: 239px;
+  width: 20px;
+  height: 20px;
+}
+
+.btm_blck {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#cnt1 {
+  width: 18px;
+  height: 20px;
+  margin-left: 87px;
+}
+
+#cnt2 {
+  width: 18px;
+  height: 20px;
+}
+#cnt3 {
+  width: 18px;
+  height: 20px;
+}
+
+#cnt4 {
+  width: 18px;
+  height: 20px;
+}
+
+.btn-edit {
+  margin-right: 1px;
+  width: 18px;
+  height: 20px;
+}
+.btn-delete {
+  width: 18px;
+  height: 20px;
+  margin-right: 80px;
+}
+
+.homepage__right {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.inp__search {
+  width: 340px;
+  height: 40px;
+  margin: 1px 1px 1px 1px;
+  background-color: rgba(105, 105, 105, 0.104);
+  border: none;
+  border-radius: 4%;
+}
+.homepage__right_ul {
+  list-style: none;
+  padding: 1px 1px 1px 1px;
+  margin: 15px 1px 1px 1px;
+  background-color: rgba(105, 105, 105, 0.104);
+  width: 350px;
+  height: 500px;
+  border-radius: 3%;
+}
+.homepage__right_ul_title {
+  font-family: "Inter";
+  font-weight: 600;
+  width: 250px;
+  height: 30px;
+  margin: 15px 1px 15px 25px;
+  font-size: 18px;
+}
+.homepage__right_li {
+  width: 250px;
+  padding: 2px 2px 2px 25px;
+  font-family: "Inter";
+  font-weight: 600;
+  color: gray;
+  font-size: 14px;
+}
+.homepage__right_title1 {
+  /* position: absolute; */
+  margin: 6px 1px 1px 1px;
+  width: 250px;
+  height: 30px;
+  font-family: "Inter";
+  /* background-color: #03a9f4; */
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
+.homepage__right_title2 {
+  /* position: absolute; */
+  margin: 1px 1px 1px 1px;
+  width: 250px;
+  height: 30px;
+  font-family: "Inter";
+  /* background-color: #282f43; */
+  font-size: 10px;
+  font-weight: 300;
+}
+.homepage__right_privacy {
+  font-family: "Inter";
+  font-size: 15px;
+  color: rgba(84, 83, 83, 0.541);
+  width: 300px;
+}

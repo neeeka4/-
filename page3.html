@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body style="background-color: white">
+    <div class="homepage">
+      <div class="homepage__left">
+        <ul class="homepage__ul">
+          <li class="homepage__li">
+            <img src="./assets/homepage icon.svg" alt="" />
+          </li>
+          <li class="homepage__li">
+            <img
+              src="https://img.icons8.com/external-line-adri-ansyah/512/external-home-basic-interface-line-adri-ansyah.png"
+              alt=""
+              class="homepage__left_btnimg"
+            />
+            <button class="homepage__left_btn">Home</button>
+          </li>
+          <li>
+            <img
+              src="https://img.icons8.com/ios-filled/512/hashtag.png"
+              alt=""
+              class="homepage__left_btnimg"
+            />
+            <button class="homepage__left_btn">Explore</button>
+          </li>
+          <li>
+            <img
+              src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/512/external-community-social-media-interface-anggara-basic-outline-anggara-putra.png"
+              alt=""
+              class="homepage__left_btnimg"
+            />
+            <button class="homepage__left_btn">Communites</button>
+          </li>
+          <li>
+            <img
+              src="https://img.icons8.com/fluency-systems-regular/512/appointment-reminders.png"
+              alt=""
+              class="homepage__left_btnimg"
+            />
+            <button class="homepage__left_btn">Notifications</button>
+          </li>
+          <li>
+            <img
+              src="https://img.icons8.com/material-outlined/512/new-message.png"
+              alt=""
+              class="homepage__left_btnimg"
+            />
+            <button class="homepage__left_btn">Messages</button>
+          </li>
+          <li>
+            <img
+              src="https://img.icons8.com/ios/512/bookmark-ribbon--v1.png"
+              alt=""
+              class="homepage__left_btnimg"
+            />
+            <button class="homepage__left_btn">Bookmarks</button>
+          </li>
+          <li>
+            <img
+              src="https://img.icons8.com/ios-filled/512/group-background-selected.png"
+              alt=""
+              class="homepage__left_btnimg"
+            />
+            <button class="homepage__left_btn">Profile</button>
+          </li>
+          <li>
+            <img
+              src="https://img.icons8.com/sf-ultralight/512/more.png"
+              alt=""
+              class="homepage__left_btnimg"
+            />
+            <button class="homepage__left_btn">More</button>
+          </li>
+        </ul>
+      </div>
+      <div class="cont_home">
+        <div class="home_page">
+          <p class="home">Home</p>
+
+          <img
+            src="https://i.pinimg.com/564x/ab/74/64/ab7464797ecc32b628b3bea1e48bfbba.jpg"
+            alt=""
+            class="avat"
+          />
+          <br />
+
+          <div class="twt_inp">
+            <input placeholder="What's happening?" class="inp_post" />
+          </div>
+          <span class="line"
+            >___________________________________________________________</span
+          >
+          <div class="btm">
+            <input
+              type="image"
+              src="./assets/icons8-image-50.png"
+              alt=""
+              id="img1"
+            />
+            <input
+              type="image"
+              src="./assets/icons8-image-50.png"
+              alt=""
+              id="img2"
+            />
+            <input
+              type="image"
+              src="./assets/icons8-image-50.png"
+              alt=""
+              id="img3"
+            />
+            <input
+              type="image"
+              src="./assets/icons8-image-50.png"
+              alt=""
+              id="img4"
+            />
+            <input
+              type="image"
+              src="./assets/icons8-image-50.png"
+              alt=""
+              id="img5"
+            />
+            <input
+              type="image"
+              src="./assets/icons8-image-50.png"
+              alt=""
+              id="img6"
+            />
+            <button class="btn_twt">Tweet</button>
+          </div>
+        </div>
+        <div id="products-list"></div>
+      </div>
+      <!-- content start -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <!-- body of edit modal -->
+              <div class="d-flex flex-column w-100 align-items-center admin">
+                <h2>Edit product</h2>
+                <input
+                  type="text"
+                  id="edit-post"
+                  class="mb-2 w-100 form-control inp"
+                  placeholder="edit post"
+                />
+              </div>
+              <!-- body of edit modal -->
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary" id="btn-save-edit">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- content end -->
+
+      <div class="homepage__right">
+        <input placeholder="Search Twitter" type="text" class="inp__search" />
+        <ul class="homepage__right_ul">
+          <h4 class="homepage__right_ul_title">Trends for you</h4>
+          <li class="homepage__right_li">
+            Trending in Kyrgyzstan
+            <h5 class="homepage__right_title1">
+              Makers
+              <h6 class="homepage__right_title2">8,517 tweets</h6>
+            </h5>
+          </li>
+          <li class="homepage__right_li">
+            Trending in Kyrgyzstan
+            <h5 class="homepage__right_title1">
+              Makers
+              <h6 class="homepage__right_title2">8,517 tweets</h6>
+            </h5>
+          </li>
+          <li class="homepage__right_li">
+            Trending in Kyrgyzstan
+            <h5 class="homepage__right_title1">
+              Makers
+              <h6 class="homepage__right_title2">8,517 tweets</h6>
+            </h5>
+          </li>
+          <li class="homepage__right_li">
+            Trending in Kyrgyzstan
+            <h5 class="homepage__right_title1">
+              Makers
+              <h6 class="homepage__right_title2">8,517 tweets</h6>
+            </h5>
+          </li>
+          <li class="homepage__right_li">
+            Trending in Kyrgyzstan
+            <h5 class="homepage__right_title1">
+              Makers
+              <h6 class="homepage__right_title2">8,517 tweets</h6>
+            </h5>
+          </li>
+        </ul>
+        <h3 class="homepage__right_privacy">
+          Terms of Service Privacy Policy Cookie Policy Accessibility Ads info
+          More © 2022 Twitter, Inc.
+        </h3>
+      </div>
+    </div>
+    <!-- Home page END  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
